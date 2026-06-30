@@ -1,0 +1,87 @@
+# ════════════════════════════════════════════════════════════════════════════
+# Environment / secrets
+# ════════════════════════════════════════════════════════════════════════════
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ════════════════════════════════════════════════════════════════════════════
+# Python / Flask (backend/)
+# ════════════════════════════════════════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.mypy_cache/
+instance/
+migrations/versions/__pycache__/
+
+# ════════════════════════════════════════════════════════════════════════════
+# Flutter / Dart (frontend/)
+# ════════════════════════════════════════════════════════════════════════════
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+**/flutter_export_environment.sh
+
+# Generated platform folders (recreate con `flutter create --platforms=...`)
+# Descomenta si NO quieres versionar el código nativo generado:
+# frontend/android/
+# frontend/ios/
+# frontend/linux/
+# frontend/windows/
+# frontend/macos/
+# frontend/web/
+
+# Símbolos de compilación
+**/*.lock.json
+app.*.symbols
+app.*.map.json
+
+# Coverage de tests Flutter
+coverage/
+
+# ════════════════════════════════════════════════════════════════════════════
+# Docker
+# ════════════════════════════════════════════════════════════════════════════
+*.pid
+
+# ════════════════════════════════════════════════════════════════════════════
+# IDEs / editores
+# ════════════════════════════════════════════════════════════════════════════
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# ════════════════════════════════════════════════════════════════════════════
+# OS
+# ════════════════════════════════════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ════════════════════════════════════════════════════════════════════════════
+# Logs
+# ════════════════════════════════════════════════════════════════════════════
+*.log
+npm-debug.log*

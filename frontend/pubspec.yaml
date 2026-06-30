@@ -1,0 +1,34 @@
+name: calendar_app
+description: Calendar & Agenda MVP — Flutter multi-platform
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP (equivalente a axios)
+  dio: ^5.4.3
+  # State management
+  provider: ^6.1.2
+  # Calendar widget
+  table_calendar: ^3.1.2
+  # Persistent storage (guardar JWT)
+  shared_preferences: ^2.3.1
+  # Routing
+  go_router: ^14.2.7
+  # Date formatting
+  intl: ^0.19.0
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
