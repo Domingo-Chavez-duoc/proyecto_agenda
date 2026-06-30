@@ -48,7 +48,6 @@ class _CalendarAppState extends State<CalendarApp> {
       redirect: (context, state) {
         final auth = context.read<AuthProvider>();
         final isAuth = auth.status == AuthStatus.authenticated;
-        final isUnauth = auth.status == AuthStatus.unauthenticated;
         final isUnknown = auth.status == AuthStatus.unknown;
 
         final isAuthRoute = state.matchedLocation == '/login' ||
